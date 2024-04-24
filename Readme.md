@@ -8,3 +8,7 @@
 #### slow subscriber
 ![alt text](image.png)
 hal ini terjadi karena subscriber perlu waktu yang lebih lama untuk di queue yang mengakibatkan terjadinya penumpukkan message
+
+#### running multiple subscriber
+![alt text](image-1.png)
+terjadi peningkatan message dalam queue karena publisher lebih cepat mem-publish message dibanding subscriber menerima dan memroses message
