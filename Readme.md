@@ -4,3 +4,7 @@
 * `guest:guest` adalah kombinasi nama pengguna dan sandinya. nama pengguna dan sandinya adalah guest
 * `localhost` menunjukan bahwa server AMQP berjalan pada lokal
 * `5672` nomor port (RabbitMQ) tempat server AMQP listening permintaan koneksi
+
+#### slow subscriber
+![alt text](image.png)
+hal ini terjadi karena subscriber perlu waktu yang lebih lama untuk di queue yang mengakibatkan terjadinya penumpukkan message
